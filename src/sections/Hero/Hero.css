@@ -2,14 +2,43 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  justify-items: center;
   align-items: center;
   padding: 2rem;
 }
 
 .hero__content {
   padding: 1rem;
+  max-width: 512px;
+}
+
+.hero__title {
+  font-size: 4rem;
+}
+.hero__title--first {
+  color: var(--color-black-soft);
+}
+.hero__title--second {
+  color: var(--color-oasis-watermelon);
+}
+.hero__title .letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.1s forwards;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
 }
 
 .hero__images {
   padding: 1rem;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

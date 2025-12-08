@@ -13,7 +13,7 @@
 
   --color-oasis-orange: #f97015;
   --color-oasis-watermelon: #ff3b3f;
-  --color-oasis-pear-pure: #99cc33;
+  --color-oasis-pear: #99cc33;
   --color-oasis-coconut: #3bb5e6;
   --color-oasis-grape: #8e44ad;
   --color-oasis-pineapple: #f4d03f;
@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   color: var(--color-black-soft);
+  line-height: 1.6;
 }
 
 input,
