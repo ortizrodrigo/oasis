@@ -17,7 +17,9 @@
   --color-oasis-coconut: #3bb5e6;
   --color-oasis-grape: #8e44ad;
   --color-oasis-pineapple: #f4d03f;
+
   --color-black-soft: #262626;
+  --color-gray-soft: #737373;
 }
 
 html,
@@ -26,6 +28,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: var(--color-black-soft);
 }
 
 input,

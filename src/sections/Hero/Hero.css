@@ -1,0 +1,15 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero__content {
+  padding: 1rem;
+}
+
+.hero__images {
+  padding: 1rem;
+}
