@@ -10,6 +10,14 @@
 
 :root {
   --header-height: 64px;
+
+  --color-orange-splash: #f97015;
+  --color-watermelon-refresh: #ff3b3f;
+  --color-pear-pure: #99cc33;
+  --color-coconut-breeze: #3bb5e6;
+  --color-grape-splash: #8e44ad;
+  --color-pineapple-zest: #f4d03f;
+  --color-black-soft: #262626;
 }
 
 html,

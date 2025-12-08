@@ -21,14 +21,14 @@ function Header() {
   };
 
   return (
-    <header>
-      <button>Oasis</button>
-      <nav>
+    <header className={scrolled ? "header scrolled" : "header"}>
+      <button className="logo">Oasis</button>
+      <nav className="nav-links">
         <button onClick={() => scrollToSection("hero")}>Home</button>
         <button onClick={() => scrollToSection("flavors")}>Flavors</button>
         <button onClick={() => scrollToSection("about")}>About</button>
       </nav>
-      <button>Order Now</button>
+      <button className="cta">Order Now</button>
     </header>
   );
 }
