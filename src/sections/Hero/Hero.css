@@ -9,8 +9,8 @@
 }
 
 .hero__content {
-  padding: 1rem;
   max-width: 512px;
+  padding-bottom: var(--header-height);
 }
 
 .hero__title {
