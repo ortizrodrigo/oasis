@@ -5,6 +5,7 @@
   justify-items: center;
   align-items: center;
   padding: 2rem;
+  height: calc(100vh - var(--header-height));
 }
 
 .hero__content {
@@ -13,7 +14,7 @@
 }
 
 .hero__title {
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 1.1;
 }
 .hero__title--first {
@@ -25,6 +26,7 @@
 
 .hero__subtitle {
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
 .hero__images {
