@@ -43,20 +43,34 @@
   padding: 1rem 2rem;
   color: white;
   font-weight: bold;
+  font-size: 1.2rem;
   border: none;
   border-radius: 2rem;
-  transition: background-color 0.3s;
-}
-.hero__btn:hover {
-  background: var(--color-black-soft);
+  transition: background-color 0.3s ease;
 }
 .hero__btn--primary {
   background: var(--color-oasis-orange);
 }
-.hero__btn--secondary {
+.hero__btn--primary:hover {
   background: var(--color-oasis-coconut);
+}
+.hero__btn--secondary {
+  background: white;
+  color: var(--color-black-soft);
+}
+.hero__btn--secondary:hover {
+  background: var(--color-oasis-coconut);
+  color: white;
 }
 
 .hero__images {
-  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: var(--header-height);
+}
+.hero__image {
+  max-width: 200px;
 }
