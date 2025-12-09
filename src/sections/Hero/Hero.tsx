@@ -2,7 +2,7 @@ import "@/sections/Hero/Hero.css";
 import { AnimatedText } from "@/components";
 import watermelonRefresh from "@/assets/products/watermelon-refresh-no-bg-cropped.png";
 import pearPure from "@/assets/products/pear-pure-no-bg-cropped.png";
-import orangeSpash from "@/assets/products/orange-splash-no-bg-cropped.png";
+import orangeSplash from "@/assets/products/orange-splash-no-bg-cropped.png";
 
 function Hero() {
   const titleTasteThe = "Taste the";
@@ -58,7 +58,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero__images">
-        <img src={orangeSpash} alt="Orange Splash" className="hero__image" />
+        <img src={orangeSplash} alt="Orange Splash" className="hero__image" />
         <img src={watermelonRefresh} alt="Watermelon Refresh" className="hero__image" />
         <img src={pearPure} alt="Pear Pure" className="hero__image" />
       </div>
