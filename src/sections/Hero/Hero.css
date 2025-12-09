@@ -20,13 +20,41 @@
 .hero__title--first {
   color: var(--color-black-soft);
 }
-.hero__title--second {
+.hero__title--real {
+  color: var(--color-oasis-pear);
+}
+.hero__title--fruit {
   color: var(--color-oasis-watermelon);
 }
 
 .hero__subtitle {
   font-size: 1.5rem;
   font-weight: 100;
+}
+
+.hero__actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.hero__btn {
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  transition: background-color 0.3s;
+}
+.hero__btn:hover {
+  background: var(--color-black-soft);
+}
+.hero__btn--primary {
+  background: var(--color-oasis-orange);
+}
+.hero__btn--secondary {
+  background: var(--color-oasis-coconut);
 }
 
 .hero__images {
