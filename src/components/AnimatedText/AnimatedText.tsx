@@ -1,4 +1,4 @@
-import "./AnimatedText.css";
+import "@/components/AnimatedText/AnimatedText.css";
 
 interface AnimatedTextProps {
   text: string;
@@ -14,7 +14,7 @@ function AnimatedText({ text, delayOffset = 0 }: AnimatedTextProps) {
         return (
           <span
             key={index}
-            className='animated-letter'
+            className="animated-letter"
             style={{ animationDelay: `${(index + delayOffset) * 0.1}s` }}
           >
             {letter}

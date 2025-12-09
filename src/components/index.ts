@@ -1,1 +1,1 @@
-export { default as AnimatedText } from "./AnimatedText/AnimatedText";
+export { default as AnimatedText } from "@/components/AnimatedText/AnimatedText";

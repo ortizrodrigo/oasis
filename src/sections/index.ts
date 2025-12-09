@@ -1,3 +1,3 @@
-export { default as Hero } from "./Hero/Hero";
-export { default as Flavors } from "./Flavors/Flavors";
-export { default as About } from "./About/About";
+export { default as Hero } from "@/sections/Hero/Hero";
+export { default as Flavors } from "@/sections/Flavors/Flavors";
+export { default as About } from "@/sections/About/About";

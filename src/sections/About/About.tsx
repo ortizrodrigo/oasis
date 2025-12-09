@@ -1,4 +1,4 @@
-import "./About.css";
+import "@/sections/About/About.css";
 
 function About() {
   return <section id="about">About</section>;

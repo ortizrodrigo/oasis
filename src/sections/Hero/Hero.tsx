@@ -1,5 +1,5 @@
-import "./Hero.css";
-import { AnimatedText } from "../../components";
+import "@/sections/Hero/Hero.css";
+import { AnimatedText } from "@/components";
 
 function Hero() {
   const titleTasteThe = "Taste the";
@@ -15,7 +15,10 @@ function Hero() {
           </div>
           <div className="hero__title--second">
             <span className="hero__title--real">
-              <AnimatedText text={titleReal} delayOffset={titleTasteThe.length} />
+              <AnimatedText
+                text={titleReal}
+                delayOffset={titleTasteThe.length}
+              />
             </span>
             <span className="hero__title--fruit">
               <AnimatedText
@@ -26,11 +29,13 @@ function Hero() {
           </div>
         </h1>
         <p className="hero__subtitle">
-          Discover our collection of sparkling fruit sodas made with real organic fruit. Pure
-          refreshment in every sip.
+          Discover our collection of sparkling fruit sodas made with real
+          organic fruit. Pure refreshment in every sip.
         </p>
         <div className="hero__actions">
-          <button className="hero__btn hero__btn--primary">Explore Flavors</button>
+          <button className="hero__btn hero__btn--primary">
+            Explore Flavors
+          </button>
           <button className="hero__btn hero__btn--secondary">Our Story</button>
         </div>
       </div>

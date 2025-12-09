@@ -1,4 +1,4 @@
-import "./Header.css";
+import "@/layout/Header/Header.css";
 import { useState, useEffect } from "react";
 
 function Header() {
