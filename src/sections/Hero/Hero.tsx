@@ -1,8 +1,8 @@
 import "@/sections/Hero/Hero.css";
 import { AnimatedText } from "@/components";
+import orangeSplash from "@/assets/products/orange-splash-no-bg-cropped.png";
 import watermelonRefresh from "@/assets/products/watermelon-refresh-no-bg-cropped.png";
 import pearPure from "@/assets/products/pear-pure-no-bg-cropped.png";
-import orangeSplash from "@/assets/products/orange-splash-no-bg-cropped.png";
 
 function Hero() {
   const titleTasteThe = "Taste the";

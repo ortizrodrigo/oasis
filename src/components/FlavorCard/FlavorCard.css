@@ -1,0 +1,71 @@
+.flavor-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.flavor-card.orange-splash {
+  background-color: color-mix(in srgb, var(--color-oasis-orange) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-orange) 20%, transparent);
+}
+.flavor-card.watermelon-refresh {
+  background-color: color-mix(in srgb, var(--color-oasis-watermelon) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-watermelon) 20%, transparent);
+}
+.flavor-card.pear-pure {
+  background-color: color-mix(in srgb, var(--color-oasis-pear) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-pear) 20%, transparent);
+}
+
+.flavor-card__tag {
+  padding: 0 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 1rem;
+}
+.flavor-card__tag.orange-splash {
+  color: var(--color-oasis-orange);
+  background-color: color-mix(in srgb, var(--color-oasis-orange) 15%, transparent);
+}
+.flavor-card__tag.watermelon-refresh {
+  color: var(--color-oasis-watermelon);
+  background-color: color-mix(in srgb, var(--color-oasis-watermelon) 15%, transparent);
+}
+.flavor-card__tag.pear-pure {
+  color: var(--color-oasis-pear);
+  background-color: color-mix(in srgb, var(--color-oasis-pear) 15%, transparent);
+}
+
+.flavor-card__image {
+  max-width: 80px;
+}
+.flavor-card__title {
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.flavor-card__description {
+  font-weight: 100;
+  opacity: 0.8;
+}
+.flavor-card__btn {
+  padding: 0.5rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+.flavor-card__btn.orange-splash {
+  background-color: var(--color-oasis-orange);
+}
+.flavor-card__btn.watermelon-refresh {
+  background-color: var(--color-oasis-watermelon);
+}
+.flavor-card__btn.pear-pure {
+  background-color: var(--color-oasis-pear);
+}
+.flavor-card__btn:hover {
+  background: var(--color-oasis-coconut);
+}
