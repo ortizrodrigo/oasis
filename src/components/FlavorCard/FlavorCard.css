@@ -6,18 +6,31 @@
   gap: 1rem;
   padding: 2rem;
   border-radius: 2rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .flavor-card.orange-splash {
   background-color: color-mix(in srgb, var(--color-oasis-orange) 5%, transparent);
   border: 1px solid color-mix(in srgb, var(--color-oasis-orange) 20%, transparent);
 }
+.flavor-card.orange-splash:hover {
+  background-color: color-mix(in srgb, var(--color-oasis-orange) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-orange) 40%, transparent);
+}
 .flavor-card.watermelon-refresh {
   background-color: color-mix(in srgb, var(--color-oasis-watermelon) 5%, transparent);
   border: 1px solid color-mix(in srgb, var(--color-oasis-watermelon) 20%, transparent);
 }
+.flavor-card.watermelon-refresh:hover {
+  background-color: color-mix(in srgb, var(--color-oasis-watermelon) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-watermelon) 40%, transparent);
+}
 .flavor-card.pear-pure {
   background-color: color-mix(in srgb, var(--color-oasis-pear) 5%, transparent);
   border: 1px solid color-mix(in srgb, var(--color-oasis-pear) 20%, transparent);
+}
+.flavor-card.pear-pure:hover {
+  background-color: color-mix(in srgb, var(--color-oasis-pear) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-oasis-pear) 40%, transparent);
 }
 
 .flavor-card__tag {
